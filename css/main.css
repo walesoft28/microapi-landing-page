@@ -1,0 +1,162 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.nav-header nav ul a {
+    color: black;
+}
+
+.nav-header .btn {
+    background-color: #31AA52;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero-header {
+    background: url(../assets/images/hero-image.png);
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(83, 173, 83, 0.644);
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-header-overlay h1 {
+    margin-left: -10rem;
+}
+
+.hero-header-overlay h1 {
+    text-align: center;
+}
+
+.hero-header-overlay a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.hero-header-overlay img {
+    width: 100%;
+}
+
+.connect-with {
+    width: 400px;
+}
+
+.registration {
+    width: 100%;
+    height: 600px;
+    background-color: #f7f7f7;
+}
+
+.scalable {
+    width: 100%;
+    padding: 5% 0;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scalable p {
+    font-size: 2rem;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.operational-cost {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.operational-cost-text {
+    margin-top: 4rem;
+}
+
+.operational-cost .row .col.m5 {
+    margin-top: 3rem;
+}
+
+.operational-cost .row {
+    margin-bottom: 20px !important ;
+}
+
+.operation-cost .image-container {
+    height: inherit;
+}
+
+.operational-cost p {
+    font-size: 1.5rem;
+}
+
+.feature-1 {
+    width: 100%;
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.feature-1 p {
+    font-size: 1.2rem;
+}
+
+.social-login,
+.multi-factor,
+.passwordless {
+    text-align: center;
+}
+
+.feature-2 {
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 20px 0;
+}
+
+.feature-2 p {
+   font-size: 1.5rem;
+   line-height: 1;
+   text-align: center;
+}
+
+ .feature-2 img {
+    width: 30px;
+ }
+
+.get-started {
+    width: 100%;
+    padding: 100px 0;
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.get-started .btn {
+    background-color: #31AA52;
+    color: #fff;
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: 1.5rem;
+}
+
